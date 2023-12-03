@@ -1,0 +1,25 @@
+.all-movies {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+
+.movie-box {
+  width: 300px;
+  box-shadow: 0px 0px 20px black;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px;
+  transition: transform 0.5s;
+}
+
+.movie-box:hover {
+  transform: scale(1.04);
+}
+
+.movie-box img {
+  height: 170px;
+}
